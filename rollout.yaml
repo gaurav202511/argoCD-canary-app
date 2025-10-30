@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: canary-app
-          image: gaurav20161/welcome:v1
+          image: gaurav20161/welcome:v2
           ports:
             - containerPort: 80
   strategy:
